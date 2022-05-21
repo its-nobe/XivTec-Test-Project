@@ -1,0 +1,70 @@
+.landing-page {
+	position: relative;
+	overflow: hidden;
+}
+.landing-page-video {
+	width: 100%;
+	height: 100%;
+	object-fit: initial;
+}
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+}
+.landing-page-text {
+	position: absolute;
+	top: 25%;
+	left: 18%;
+	text-align: center;
+	z-index: 1;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	max-width: 60%;
+	font-size: 4vw;
+	font-style: normal;
+}
+
+.landing-page-icon {
+	position: absolute;
+	top: 80%;
+	left: 45%;
+	text-align: center;
+	z-index: 95;
+	color: white;
+
+	max-width: 60%;
+	display: block;
+	font-size: 6vw;
+	font-style: normal;
+}
+.getInTouchContainer {
+	text-align: left;
+	padding-left: 18%;
+	padding-bottom: 5%;
+	margin-bottom: 5%;
+	border-bottom: 2px solid black;
+}
+.collaborate {
+	text-align: left;
+	padding: 3% 18%;
+}
+.collaborate h4 {
+	font-weight: bolder;
+}
+@media screen and (max-width: 1500px) {
+	.getInTouchContainer {
+		padding: 5% 3%;
+	}
+	.collaborate {
+		padding: 3% 5%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.landing-page-text {
+		font-size: 6.8vw;
+	}
+}
